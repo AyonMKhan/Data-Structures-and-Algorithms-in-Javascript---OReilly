@@ -1,2 +1,13 @@
-going through this Data Structures and Algorithms in Javascript by OReilly publishing. 
 - Arrays
+- Lists
+- Stacks
+- Queues
+- Linked Lists
+- Dictionaries
+- Hashing
+- Sets
+- Binary Trees and Binary Search Trees
+- Graphs and graph algorithms
+- Sorting Algorithms
+- Searching Algorithms
+- Advanced Algorithms
