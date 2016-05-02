@@ -35,17 +35,17 @@
 
 // var names = ["David","Mike","Cynthia","Clayton","Bryan","Raymond"]; 
 // nums.sort();
-// var nums = [3,1,2,100,4,200]; 
+var nums = [3,1,2,100,4,200]; 
 // // nums.sort(); // doesn't work well with nums
 
 	// ////// CALLBACKS ///////
-// function compare(num1, num2) { // ususally compares strings but you can compare nums if you reduce and the sum is neg means left is smaller than right
-// 	// console.log(num1, num2)
-// 	// console.log(nums)
-// 	return num1 - num2;
-// }
-// nums.sort(compare) //callback
-// console.log(nums)
+function compare(num1, num2) { // ususally compares strings but you can compare nums if you reduce and the sum is neg means left is smaller than right
+	// console.log(num1, num2)
+	// console.log(nums)
+	return num1 - num2;
+}
+nums.sort(compare) //callback
+console.log(nums)
 
 // function square(num) {  
 // 	console.log(num, num * num); 
@@ -221,7 +221,7 @@ newLet.addLetters("hi")
 newLet.addLetters("I")
 newLet.addLetters("am")
 newLet.addLetters("Mike")
-console.log(newLet.displayWord())
+// console.log(newLet.displayWord())
 
 
 
